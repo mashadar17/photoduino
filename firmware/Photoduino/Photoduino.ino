@@ -188,16 +188,16 @@
 #define LCD_ROWS             2  // rows
 
 // Pinout settings
-#define PINS_LCD_LED         13 //(digital pin)
-#define PINS_LCD_RS          12 //(digital pin)
-#define PINS_LCD_ENABLE      11 //(digital pin)
-#define PINS_LCD_DB4         10 //(digital pin)
-#define PINS_LCD_DB5         9  //(digital pin)
-#define PINS_LCD_DB6         8  //(digital pin)
-#define PINS_LCD_DB7         7  //(digital pin)
-#define PINS_BUZZER          6  //(digital pin with pwm)
-#define PINS_SHUTTER         5  //(digital pin)
-#define PINS_AUTOFOCUS       4  //(digital pin)
+#define PINS_LCD_LED         13 //(digital pin) 
+#define PINS_LCD_RS      8     //(digital pin) 12
+#define PINS_LCD_ENABLE  9     //(digital pin) 11
+#define PINS_LCD_DB4     4     //(digital pin) 10
+#define PINS_LCD_DB5     5      //(digital pin) 9
+#define PINS_LCD_DB6     6      //(digital pin) 8
+#define PINS_LCD_DB7     7      //(digital pin) 7
+#define PINS_BUZZER      10      //(digital pin with pwm) 6
+#define PINS_SHUTTER     11      //(digital pin) 5
+#define PINS_AUTOFOCUS   12      //(digital pin) 4
 #define PINS_BTN_A           3  //(digital pin)
 #define PINS_BTN_B           2  //(digital pin)
 
